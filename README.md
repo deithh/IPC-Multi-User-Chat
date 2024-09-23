@@ -1,4 +1,4 @@
-# IPC chat
+# IPC multiuser chat
 This project implements a simple chat server and client system using IPC (Inter-Process Communication) message queues in C. The client application allows users to send and receive messages, create and subscribe to topics, and block or unblock other users. The server handles user management, message distribution, and topic management. Both client and server processes communicate through IPC message queues, ensuring synchronous message passing and efficient inter-process communication.
 
 
