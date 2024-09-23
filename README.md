@@ -4,7 +4,7 @@ This project implements a simple chat server and client system using IPC (Inter-
 
 ## Setup and Commands:  
 
-start the server: 
+start the server:  
 ./server  
 
 exit: ctrl + c  
