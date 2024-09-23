@@ -2,29 +2,29 @@
 This project implements a simple chat server and client system using IPC (Inter-Process Communication) message queues in C. The client application allows users to send and receive messages, create and subscribe to topics, and block or unblock other users. The server handles user management, message distribution, and topic management. Both client and server processes communicate through IPC message queues, ensuring synchronous message passing and efficient inter-process communication.
 
 
-## Setup and Commands:
+## Setup and Commands:  
 
 start the server: 
-./server
+./server  
 
-exit: ctrl + c 
+exit: ctrl + c  
 
-start the client:
-./client [nick 0-31chars]
+start the client:  
+./client [nick 0-31chars]  
 
-Available Commands:
+Available Commands:  
 
-/help - Display help information
-/createThread - Create a new topic
-/listThreads - Request the list of topics from the server
-/subThread - Subscribe to a thread
-/requestPosts - Request synchronous messages
-/post - Create and send a message
-/blockUser - Block a user
-/unblockUser - Unblock a user
-/exit - Exit the client
+/help - Display help information  
+/createThread - Create a new topic  
+/listThreads - Request the list of topics from the server  
+/subThread - Subscribe to a thread  
+/requestPosts - Request synchronous messages  
+/post - Create and send a message  
+/blockUser - Block a user  
+/unblockUser - Unblock a user  
+/exit - Exit the client  
 
-These commands guide users to retrieve necessary data and send requests.
+These commands guide users to retrieve necessary data and send requests.  
 
 ## Files Description
 client.c - This file contains the implementation of the chat client program using IPC message queues in C. After logging in, the client can execute various commands, such as sending and receiving messages, subscribing to topics, creating new threads, and blocking other users. The code also handles server messages and manages client-server interactions through child processes.
